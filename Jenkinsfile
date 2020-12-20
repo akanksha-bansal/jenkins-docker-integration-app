@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("akankshabansal07/JenkinsDockerIntegration")
+        app = docker.build("akankshabansal07/dockerhubimg")
     }
 
     stage('Test image') {
